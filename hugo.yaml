@@ -1,0 +1,6 @@
+baseURL: 'https://terra-incognita.mwtaylor.dev/'
+languageCode: 'en-us'
+title: 'Terra Incognita'
+
+theme:
+  - base

@@ -1,0 +1,22 @@
+{{ define "body" }}
+    {{ range .Site.Sections }}
+        <h1>{{ .Title }}</h1>
+        {{ range .Sections }}
+            <h2>{{ .Title }}</h2>
+            <ul>
+                {{ range .Pages }}
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        {{ with .Summary }}
+                            <ul><li>
+                                {{ if strings.ContainsNonSpace . }}
+                                    {{ . }}
+                                {{ end }}
+                            </li></ul>
+                        {{ end }}
+                    </li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    {{ end }}
+{{ end }}

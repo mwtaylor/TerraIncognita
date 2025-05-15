@@ -1,0 +1,23 @@
+{
+  "name": "terraincognita",
+  "version": "1.0.0",
+  "description": "Hugo site that lives as a subdomain of mwtaylor.dev that collects my examples, references, and any random stuff I want on the web",
+  "homepage": "https://github.com/mwtaylor/TerraIncognita#readme",
+  "bugs": {
+    "url": "https://github.com/mwtaylor/TerraIncognita/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwtaylor/TerraIncognita.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.147.2"
+  }
+}
