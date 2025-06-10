@@ -4,3 +4,10 @@ title: 'Terra Incognita'
 
 theme:
   - base
+
+markup:
+  highlight:
+    style: github
+
+  tableOfContents:
+    startLevel: 1
